@@ -6,6 +6,7 @@ import AppointmentForm from '../components/AppointmentForm';
 import { HeaderContainer, HeaderTitle } from '../components/Header';
 import theme from '../styles/theme';
 import { RootStackParamList } from '../types/navigation';
+import { Appointment } from '../types/appointments';
 
 type CreateAppointmentScreenProps = {
     navigation: NativeStackNavigationProp<RootStackParamList, 'CreateAppointment'>;
